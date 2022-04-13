@@ -8,5 +8,5 @@ var isPowerOfThree = function(n) {
         if(n % 3 !== 0) return false
         n /= 3
     }
-    return n<=0 ? false : true
+    return n <= 0 ? false : true
 };
